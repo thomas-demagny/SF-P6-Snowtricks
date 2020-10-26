@@ -8238,7 +8238,21 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "composer/package-versions-deprecated": 20,
+        "doctrine/doctrine-bundle": 20,
+        "doctrine/doctrine-migrations-bundle": 20,
+        "doctrine/orm": 20,
+        "phpdocumentor/reflection-docblock": 20,
+        "symfony/twig-bundle": 10,
+        "symfony/browser-kit": 10,
+        "symfony/css-selector": 10,
+        "symfony/debug-bundle": 10,
+        "symfony/phpunit-bridge": 20,
+        "symfony/stopwatch": 10,
+        "symfony/var-dumper": 10,
+        "symfony/web-profiler-bundle": 10
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
