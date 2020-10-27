@@ -1,0 +1,11 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+    background-color: #adff2f;
+}
+ul{
+    list-style: none;
+}
+footer p{
+    color: #81FFDA
+}
+
