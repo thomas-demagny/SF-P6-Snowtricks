@@ -1,11 +1,20 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
 body {
-    background-color: #adff2f;
+    position: absolute;
+    width: 100%;
+}
+footer {
+    color: #e0e0e0;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(0deg, #000, purple)
 }
 ul{
     list-style: none;
 }
-footer p{
-    color: #81FFDA
-}
+
 

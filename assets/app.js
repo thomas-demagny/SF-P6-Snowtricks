@@ -1,6 +1,6 @@
 
 import "./styles/app.css";
-import "./styles/home.css";
+import "./styles/home.css"
 
 const $ = require("jquery");
 require("bootstrap");

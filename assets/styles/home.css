@@ -1,0 +1,12 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+h1{
+    font-size: 50px;
+}
+.head {
+
+    height: auto;
+    background-image: url('http://getwallpapers.com/wallpaper/full/4/9/6/436306.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
