@@ -10,17 +10,21 @@
 
     <body>
     {% include "layout/nav.html.twig"%}
-
+    {% block header %} {% endblock %}
+    <main class="container">
         {% block body %} {% endblock %}
-
-
-    <footer class="container footer bg-dark pt-3 pb-3">
-       {% include "layout/footer.html.twig"%}
-   </footer>
-
-        {% block javascripts %}
-            {{ encore_entry_script_tags("app") }}
-        {% endblock %}
+    </main>
+    <footer class="container-fluid footer p-3">
+        {% include "layout/footer.html.twig"%}
+    </footer>
+    {% block javascripts %}
+        {{ encore_entry_script_tags("app") }}
+    {% endblock %}
     </body>
 </html>
+
+
+
+
+
 
