@@ -6,15 +6,25 @@ body {
 }
 footer {
     color: #e0e0e0;
-    position: relative;
+    position: page;
     left: 0;
     bottom: 0;
     width: 100%;
     text-align: center;
-    background: linear-gradient(0deg, #000, purple)
+    background: linear-gradient(0deg, #000, #800080)
 }
-ul{
+ul {
     list-style: none;
+}
+a {
+    color: #5b0f7e;
+}
+.registerSection {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    padding: 7em;
 }
 
 
