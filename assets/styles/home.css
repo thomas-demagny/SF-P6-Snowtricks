@@ -1,20 +1,18 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
-
+.jumbotron {
+  height: auto;
+  background-image: url("/img/header.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .snow, .lead {
-    color: #5b0f7e;
-    font-weight: bold;
+  color: #5b0f7e;
+  font-weight: bold;
 }
 .snow {
-    font-style: italic;
-    font-size: 7rem;
+  font-size: 5rem;
 }
 .lead {
-    font-size: 5rem;
-}
-.head {
-    height: auto;
-    background-image: url('http://getwallpapers.com/wallpaper/full/4/9/6/436306.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  font-size: 4rem;
 }
