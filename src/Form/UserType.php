@@ -23,13 +23,13 @@ class UserType extends AbstractType
                 "label"=> "Email",
                 "required" => true
             ])
-            /*->add("roles", ChoiceType::class, [
+        /*    ->add("roles", ChoiceType::class, [
                 "choices"=> [
                     "Utilisateur"=> "ROLE_USER",
                     "Editeur" => "ROLE_EDITOR",
-                    "Admin" => "ROLE_ADMIN"
+                    "Admin" => "ROLE_ADMIN",
                 ],
-            ])*/
+            ]) */
             ->add("password", TextType::class, [
                 "label"=> "Mot de passe",
                 "required" => true
